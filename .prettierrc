@@ -1,0 +1,18 @@
+{
+  "printWidth": 100,
+  "proseWrap": "preserve",
+  "singleQuote": true,
+  "semi": true,
+  "trailingComma": "all",
+  "endOfLine": "lf",
+  "plugins": ["./tools/prettier-plugin-frontmatter-align.mjs"],
+  "overrides": [
+    {
+      "files": "*.md",
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}
